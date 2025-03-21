@@ -1,8 +1,6 @@
 __pycache__/
 .DS_Store
-raw/
 
-data/
+raw/
 TEMP/
 
-old/
