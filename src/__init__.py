@@ -22,9 +22,9 @@ plt.rcParams['lines.markeredgecolor'] = 'none'
 plt.rcParams['savefig.bbox'] = 'tight'
 plt.rcParams['figure.figsize'] = (8.5 / 2.54, 0.618 * 8.5 / 2.54)
 plt.rcParams['figure.dpi'] = 192
-plt.rcParams['axes.prop_cycle'] = plt.matplotlib.rcsetup.cycler(
-    'color', ['tab:purple', 'tab:green', 'tab:blue', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan']
-)
+# plt.rcParams['axes.prop_cycle'] = plt.matplotlib.rcsetup.cycler(
+#     'color', ['tab:purple', 'tab:green', 'tab:blue', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan']
+# )
 
 from math import tau, pi
 import numpy as np
