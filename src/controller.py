@@ -161,7 +161,7 @@ class RaspiLED:
     def turn_on(self, duty):
         if duty > 100 or duty < 0:
             raise ValueError
-        _ = self.ssh.exec_command(f'./pwm.sh 18 2000 {20 * duty}')
+        _ = self.ssh.exec_command(f'./pwm.sh 2 2000 {20 * duty}')
 
     def check(self, loops=1, speed=10):
         print("Trying to turn on LED, check camera's screen.")

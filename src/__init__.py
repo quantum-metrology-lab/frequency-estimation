@@ -26,6 +26,18 @@ plt.rcParams['figure.dpi'] = 192
 #     'color', ['tab:purple', 'tab:green', 'tab:blue', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan']
 # )
 
+plt.rcParams['axes.linewidth']=0.5
+plt.rcParams['xtick.major.size'] = 4.5
+plt.rcParams['xtick.minor.size'] = 2.5
+plt.rcParams['xtick.major.width'] = 0.5
+plt.rcParams['xtick.minor.width'] = 0.5
+plt.rcParams['xtick.minor.visible'] = 'True'
+plt.rcParams['ytick.major.size'] = 4.5
+plt.rcParams['ytick.minor.size'] = 2.5
+plt.rcParams['ytick.major.width'] = 0.5
+plt.rcParams['ytick.minor.width'] = 0.5
+plt.rcParams['ytick.minor.visible'] = 'True'
+
 from math import tau, pi
 import numpy as np
 from tqdm import tqdm
@@ -46,5 +58,4 @@ from .estimator import *
 import platform
 if platform.system() == 'Windows':
     from .controller import *
-
 
